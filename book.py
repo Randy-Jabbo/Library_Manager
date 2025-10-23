@@ -78,7 +78,7 @@ class Book:
 
         
 
-def instansiate():
+def instantiate():
     objects = []
     with open("books.txt", "r") as file:
         lines = file.readlines()
